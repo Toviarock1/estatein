@@ -25,6 +25,12 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.bg-double {
+  background-image: url("./../public/action/image1.png"),
+    url("./../public/action/image2.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: left bottom, right bottom;
+}
 
 @layer utilities {
   .text-balance {
